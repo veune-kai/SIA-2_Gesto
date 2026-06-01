@@ -31,3 +31,4 @@ Route::middleware('auth')->group(function () {
 
 Route::get('/products', [ProductController::class, 'index']);
 require __DIR__.'/auth.php';
+require base_path('app/Modules/Students/Routes/web.php');
